@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<com.jack.systemviewtest.widget.CustomProgressView
+    android:layout_width="120dp"
+    android:layout_height="120dp"
+    android:layout_marginTop="10dp"
+    custom:firstColor="@color/colorAccent"
+    custom:secondColor="@color/colorPrimary"
+    android:layout_gravity="center"
+    custom:circleWidth="20dp"
+    custom:speed="20"/>
+</LinearLayout>
