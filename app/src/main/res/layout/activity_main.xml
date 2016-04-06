@@ -8,15 +8,37 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/btnPopView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="btnPopView"
         android:text="PopView" />
+
     <Button
-        android:id="@+id/btnProgress"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="btnProgress"
         android:text="Progress" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnTimeView"
+        android:text="TimeView" />
+
+    <Button
+        android:id="@+id/update_ui"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UPTEXT" />
+
+    <TextView
+        android:id="@+id/update_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnClock"
+        android:text="Clock" />
 </LinearLayout>

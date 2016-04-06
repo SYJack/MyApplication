@@ -20,6 +20,12 @@ public class MyViewClass extends AppCompatActivity {
             case 1:
                 setContentView(R.layout.layout_customprogress);
                 break;
+            case 2:
+                setContentView(R.layout.layout_timeview);
+                break;
+            case 3:
+                setContentView(R.layout.layout_custompanlview);
+                break;
         }
     }
 }
